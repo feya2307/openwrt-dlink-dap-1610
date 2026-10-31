@@ -1,6 +1,6 @@
 # OpenWrt для D-Link DAP-1610 (MT7628AN)
 
-Готовые сборки OpenWrt на базе main (мерж эпохи 24.10) с LuCI и поддержкой USB.
+Готовые сборки OpenWrt на базе main (мерж 24.10) с LuCI.
 
 ## Авторы базы:
 - [LoneWolff7/openwrt-dlink-dap-1610](https://github.com/LoneWolff7/openwrt-dlink-dap-1610) — основа
@@ -11,7 +11,10 @@
 Формат `.ubi` для этой платы **не применяется** (SPI NOR, а не NAND).
 
 ## Как прошить:
-Усилитель уже на OpenWrt - прошиваем через веб-интерфейса(можно и по SSH)
+Роутер уже на OpenWrt:
+- **Веб-интерфейс (LuCI):** Система → Загрузка — может отказать из-за несовпадения модели, тогда используй SSH.
+
+Не выдёргивайте питание 2–3 минуты.
 
 Стоковая прошивка / TFTP-recovery — см. [официальную документацию OpenWrt](https://openwrt.org/docs/guide-user/installation/generic.flashing).
 
