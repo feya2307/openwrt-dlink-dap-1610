@@ -12,6 +12,7 @@
 
 ## Как прошить:
 Усилитель уже на OpenWrt - прошиваем через веб-интерфейса(можно и по SSH)
+
 Стоковая прошивка / TFTP-recovery — см. [официальную документацию OpenWrt](https://openwrt.org/docs/guide-user/installation/generic.flashing).
 
 ## ⚠️ Ревизии:
